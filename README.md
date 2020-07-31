@@ -12,4 +12,3 @@ Here are some ideas to get you started:-->
 - 💬 Ask me about Flutter, Python, OpenCV 
 - 📫 How to reach me: twitter[@TreavVasu](https://twitter.com/TreavVasu), [Linkdin](https://www.linkedin.com/in/vasu-soni-392540190/)
 - 😄 Pronouns: He/Him/His
-- ⚡ Fun fact: /*Literallly thought about it for 20 minutes and nothing came up*/ would get one here as soon as I'll find one. :)
