@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+
+
 <!--
 **TreavVasu/TreavVasu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -12,3 +14,8 @@ Here are some ideas to get you started:-->
 - 💬 Ask me about Flutter, Python, OpenCV 
 - 📫 How to reach me: twitter[@TreavVasu](https://twitter.com/TreavVasu), [Linkdin](https://www.linkedin.com/in/vasu-soni-392540190/)
 - 😄 Pronouns: He/Him/His
+
+
+![Vasu's github stats](https://github-readme-stats.vercel.app/api?username=TreavVasu&show_icons=true)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TreavVasu&layout=compact)](https://github.com/TreavVasu/github-readme-stats)
+
