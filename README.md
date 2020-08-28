@@ -15,6 +15,7 @@ Here are some ideas to get you started:-->
 - 📫 How to reach me: twitter[@TreavVasu](https://twitter.com/TreavVasu), [Linkdin](https://www.linkedin.com/in/vasu-soni-392540190/)
 - 😄 Pronouns: He/Him/His
 
+discord@SoundofThunder
 
 ![Vasu's github stats](https://github-readme-stats.vercel.app/api?username=TreavVasu&show_icons=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TreavVasu&layout=compact)](https://github.com/TreavVasu/github-readme-stats)
