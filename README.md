@@ -17,6 +17,8 @@ Here are some ideas to get you started:-->
 
 discord@SoundofThunder
 
+
 ![Vasu's github stats](https://github-readme-stats.vercel.app/api?username=TreavVasu&show_icons=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TreavVasu&layout=compact)](https://github.com/TreavVasu/github-readme-stats)
 
+![](https://komarev.com/ghpvc/?username=TreavVasu&color=green)
