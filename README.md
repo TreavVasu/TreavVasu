@@ -12,7 +12,7 @@ Here are some ideas to get you started:-->
 - 🤔 I’m looking for maximizing productivity and minmizing lazyness
 - 💬 Ask me about Flutter, Python, OpenCV 
 - 📫 How to reach me: twitter[@TreavVasu](https://twitter.com/TreavVasu), [Linkdin](https://www.linkedin.com/in/vasu-soni-392540190/)
--  discord: @SoundofThunder
+- 🤸 Discord: @SoundofThunder
 - 😄 Pronouns: He/Him/His
 
 
