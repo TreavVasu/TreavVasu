@@ -8,11 +8,11 @@ Here are some ideas to get you started:-->
 
 - 🔭 I’m currently making a push to life repo 
 - 🌱 I’m currently learning Flutter, Java and DSA 
-- 👯 I’m looking to sustainable work and projects
-- 🤔 I’m looking for help with competitive programming
+- 👯 I’m looking forward to sustainable work and projects
+- 🤔 I’m looking for maximizing productivity and minmizing lazyness
 - 💬 Ask me about Flutter, Python, OpenCV 
 - 📫 How to reach me: twitter[@TreavVasu](https://twitter.com/TreavVasu), [Linkdin](https://www.linkedin.com/in/vasu-soni-392540190/)
--  discord@SoundofThunder
+-  discord: @SoundofThunder
 - 😄 Pronouns: He/Him/His
 
 
