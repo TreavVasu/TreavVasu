@@ -14,6 +14,7 @@ Here are some ideas to get you started:-->
 - 📫 How to reach me: twitter[@TreavVasu](https://twitter.com/TreavVasu), [Linkdin](https://www.linkedin.com/in/vasu-soni-392540190/)
 - 🤸 Discord: @SoundofThunder
 - 😄 Pronouns: He/Him/His
+- ♛  Chess.com -<b>thyQueenShallFall</b> lichess.com- <b>Thundervasu</b>   
 
 
 ![](https://komarev.com/ghpvc/?username=TreavVasu&color=green)
