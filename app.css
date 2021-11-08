@@ -437,14 +437,24 @@ img {
 /* Image logo Crop  */
 
 .image-cropper {
-   width: 100px;
-   height: 100px;
-   position: relative;
-   overflow: hidden;
-   border-radius: 50%;
-   left: 48%;
-   top: 50%;
-}
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	left: 48%;
+	top: 50%;
+ }
+ 
+ .imr{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10%;
+	left: 48%;
+	top: 50%;
+ }
  
 
 
