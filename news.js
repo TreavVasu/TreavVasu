@@ -62,6 +62,10 @@ switch(theRandomNumber) {
 
 // var url = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&' +
 //           'apiKey=';
+
+// Overcoming GitHub pages restrictions 
+let fix = "https://newsrunner.herokuapp.com/"
+url = fix+url
 url = url + api
 var req = new Request(url);
 
