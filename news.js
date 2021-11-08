@@ -1,6 +1,6 @@
 let api = "597a94d33b3f4beb96d7f437f3c36510"
 
-var url = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&' +
+var url = 'http://newsapi.org/v2/top-headlines?sources=techcrunch&' +
           'apiKey=';
 
 
@@ -11,45 +11,45 @@ switch(theRandomNumber) {
 		url=url
         break;
 	case 2:
-        url = 'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey='
+        url = 'http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey='
     // Functionality
 		break;
     case 3:
-        url = 'https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey='	
+        url = 'http://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey='	
     // Functionality
 		break;
     case 4:
-        url = 'https://newsapi.org/v2/top-headlines?country=in&category=general&apiKey='
+        url = 'http://newsapi.org/v2/top-headlines?country=in&category=general&apiKey='
 
 		// Functionality
 		break;
     case 5:
-        url = 'https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey='
+        url = 'http://newsapi.org/v2/top-headlines?country=in&category=health&apiKey='
 
             // Functionality
         break;
     case 6:
-        url = 'https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey='
+        url = 'http://newsapi.org/v2/top-headlines?country=in&category=science&apiKey='
 
             // Functionality
         break;
     case 7:
-        url = 'https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey='
+        url = 'http://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey='
 
             // Functionality
         break;
     case 8:
-        url = 'https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey='
+        url = 'http://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey='
 
             // Functionality
         break;
     case 9:
-        url = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey='
+        url = 'http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey='
 
             // Functionality
         break;
 	default:
-        url = 'https://newsapi.org/v2/top-headlines?country=ca&category=business&apiKey='
+        url = 'http://newsapi.org/v2/top-headlines?country=ca&category=business&apiKey='
 
 		// Functionality
 		break;
