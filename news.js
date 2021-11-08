@@ -1,5 +1,7 @@
 let api = "597a94d33b3f4beb96d7f437f3c36510"
+let api2 = "3c3337c6c58648828be8c81a65adf427"
 
+api =api2
 var url = 'http://newsapi.org/v2/top-headlines?sources=techcrunch&' +
           'apiKey=';
 
