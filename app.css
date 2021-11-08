@@ -323,6 +323,7 @@ img {
 .btn-xl {
 	font-size: 2rem;
 	padding: 1.5rem 2.1rem;
+	background: var(--primary-color);
 	text-transform: uppercase;
 }
 
