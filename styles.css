@@ -90,6 +90,7 @@ img {
 
 .eyebrow,
 .section-kicker {
+  display: block;
   margin: 0 0 14px;
   color: var(--gold);
   font-size: 0.78rem;
@@ -201,9 +202,41 @@ h3 {
   padding: 86px 0;
 }
 
-.section-heading {
+.section-disclosure > summary,
+.table-disclosure > summary,
+.footer-disclosure > summary {
+  cursor: pointer;
+}
+
+.section-disclosure > summary {
   max-width: 760px;
   margin-bottom: 32px;
+}
+
+.section-disclosure > summary::marker,
+.table-disclosure > summary::marker,
+.footer-disclosure > summary::marker {
+  color: var(--gold);
+}
+
+.summary-title {
+  display: block;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.table-disclosure + .table-disclosure {
+  margin-top: 18px;
+}
+
+.table-disclosure > summary {
+  margin-bottom: 10px;
+  padding: 10px 0;
+  color: var(--ink);
+  font-weight: 850;
 }
 
 .table-wrap,
@@ -270,6 +303,12 @@ h3 {
   max-width: 680px;
 }
 
+.footer-disclosure > summary {
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 850;
+}
+
 .footer-table {
   min-width: 360px;
   border-color: rgba(255, 255, 255, 0.14);
@@ -304,6 +343,10 @@ h3 {
     font-size: 2.45rem;
   }
 
+  .summary-title {
+    font-size: 2.45rem;
+  }
+
   .nav {
     align-items: flex-start;
     flex-direction: column;
@@ -334,6 +377,10 @@ h3 {
   }
 
   h2 {
+    font-size: 2rem;
+  }
+
+  .summary-title {
     font-size: 2rem;
   }
 
