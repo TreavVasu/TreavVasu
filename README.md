@@ -1,28 +1,39 @@
+<p align="right">
+  <img src="./assets/Profile%20pic.png" width="150" alt="Vasu Soni" />
+</p>
 
-### Hi there , I am Vasu Soni 👋
+# Vasu Soni
 
-<!--
-**TreavVasu/TreavVasu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-Here are some ideas to get you started:-->
-<img src="https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg" align=right  height='35%' width='35%'/>
+Mobile and web developer.
 
-- 🔭 I’m currently making a push to life repo 
-- 🌱 I’m currently learning Flutter, Java and DSA 
-- 👯 I’m looking forward to sustainable work and projects
-- 🤔 I’m looking for maximizing productivity and minmizing lazyness
-- 💬 Ask me about Flutter, Python, OpenCV 
-- 📫 How to reach me: twitter[@TreavVasu](https://twitter.com/TreavVasu), [Linkdin](https://www.linkedin.com/in/vasu-soni-392540190/)
-- 🤸 Discord: @SoundofThunder
-- 😄 Pronouns: He/Him/His
-- ♛  Chess.com -<b>thyQueenShallFall</b> lichess.com- <b>Thundervasu</b>   
+[Portfolio](https://treavvasu.github.io/TreavVasu/) | [LinkedIn](https://www.linkedin.com/in/iamvasusoni/) | [Twitter/X](https://twitter.com/TreavVasu) | [Email](mailto:write2treav@gmail.com)
 
+## Profile
 
-![](https://komarev.com/ghpvc/?username=TreavVasu&color=green)
+| Field | Details |
+| --- | --- |
+| Role | Mobile and web developer |
+| Stack | Android, Flutter, Java, Python, OpenCV |
+| Work | Apps, websites, computer vision |
 
+## Projects
 
+| Project | Type | Stack |
+| --- | --- | --- |
+| [FewShorts](https://github.com/TreavVasu/fewshorts) | Android news app. | Java, XML |
+| [COVID19 App](https://github.com/TreavVasu/COVID19) | Live COVID data app. | Java, XML |
+| [FlutterH20](https://github.com/TreavVasu/FlutterH20) | Hack20 Flutter project. | Flutter, Dart |
+| Hair My Style | Hairstyle app. | Mobile |
 
-![Vasu's github stats](https://github-readme-stats.vercel.app/api?username=TreavVasu&show_icons=true)
+## Skills
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TreavVasu&layout=compact)](https://github.com/TreavVasu/github-readme-stats)
+| Area | Tools |
+| --- | --- |
+| Mobile | Flutter, Dart, Android |
+| Code | Java, Python, C++ |
+| Web | HTML, CSS, JavaScript |
+| Vision | OpenCV |
 
+## GitHub Snapshot
 
+![Vasu's GitHub stats](https://github-readme-stats.vercel.app/api?username=TreavVasu&show_icons=true&hide_border=true&rank_icon=github)

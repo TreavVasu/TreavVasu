@@ -1,314 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Vasu Soni || NITan || Tech Enthusiast</title>
-    <link rel="stylesheet" href="app.css">
-    <script src="app.js"></script>
-    <script src="https://kit.fontawesome.com/8be9577333.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      //  Blogger, Mobile and Web Developer
-      const carouselText = [
-      {text: "a Tech Enthusiast", color: "red"},
-  {text: "Pre-Final year Student", color: "orange"},
-  {text: "avid Learner", color: "yellow"},
-  {text: " Blogger", color: "red"},
-  {text: "Mobile Developer", color: "orange"},
-  {text: "Web Developer", color: "yellow"},
-  
-]
-
-$( document ).ready(async function() {
-  carousel(carouselText, "#feature-text")
-});
-
-async function typeSentence(sentence, eleRef, delay = 100) {
-  const letters = sentence.split("");
-  let i = 0;
-  while(i < letters.length) {
-    await waitForMs(delay);
-    $(eleRef).append(letters[i]);
-    i++
-  }
-  return;
-}
-
-async function deleteSentence(eleRef) {
-  const sentence = $(eleRef).html();
-  const letters = sentence.split("");
-  let i = 0;
-  while(letters.length > 0) {
-    await waitForMs(100);
-    letters.pop();
-    $(eleRef).html(letters.join(""));
-  }
-}
-
-async function carousel(carouselList, eleRef) {
-    var i = 0;
-    while(true) {
-      updateFontColor(eleRef, carouselList[i].color)
-      await typeSentence(carouselList[i].text, eleRef);
-      await waitForMs(1500);
-      await deleteSentence(eleRef);
-      await waitForMs(500);
-      i++
-      if(i >= carouselList.length) {i = 0;}
-    }
-}
-
-function updateFontColor(eleRef, color) {
-  $(eleRef).css('color', color);
-}
-
-function waitForMs(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms))
-}
-
-    </script>
-
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-/>
-<!-- styles -->
-<link rel="stylesheet" href="styles.css" />
-
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Vasu Soni, a mobile and web developer who works with Flutter, Android, Java, Python, and OpenCV."
+    />
+    <title>Vasu Soni | Mobile and Web Developer</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-<body>
+  <body>
+    <header class="hero" id="top">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top">Vasu Soni</a>
+        <div class="nav-links">
+          <a href="#profile">Profile</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
 
-
-<header class="showcase">
-  <div class="showcase-top">
-    
-    <div class="image-cropper">
-      <img src="./assets/V.png" alt="">
-    </div>
-    <!-- <a href="#" class="btn btn-rounded">ToDo list</a> -->
-  </div>
-  <div class="showcase-content">
-
-  <div class="typing-container">
-    <span id="sentence" class="sentence"><h1>I am Vasu</h1> </span>
-    <h1><span id="feature-text"></span></h1>
-    <span class="input-cursor"></span>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-    <a href="./news.html" class=" btn-xl">
-      Dynamic Page
-      <i class="fas fa-chevron-right btn-icon"></i>
-    </a>
-  </div>
-
-</header>
-
-
-<!-- END OF HEADER  -->
-
-
-<div class="tabs">
-  <div class="tab-2">
-    <label for="tab2-1">
-      <i class="fas fa-door-open fa-3x"></i> <p>Projects</p> 
-    </label>
-    <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
-    <div>
-
-    
-      <section class="section-center">
-        <!-- form -->
-        <form class="grocery-form">
-          <p class="alert"></p>
-          <a href="https://github.com/TreavVasu/fewshorts">
-          <div class="imr">
-            <img src="https://raw.githubusercontent.com/TreavVasu/fewshorts/master/app/src/main/ic_launcher-playstore.png" alt="">
+      <section class="hero-content" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Mobile | Web | Apps</p>
+          <h1 id="hero-title">Vasu Soni</h1>
+          <p class="hero-text">
+            I build mobile and web apps.
+          </p>
+          <div class="hero-actions" aria-label="Important links">
+            <a class="button primary" href="#projects">Projects</a>
+            <a class="button secondary" href="https://github.com/TreavVasu">GitHub</a>
           </div>
-          <br>
-          <h3>FewShorts - An Inshorts Clone</h3>
-          <div class="form-control">
-            <h4>a simple app made for Android with Java and XML</h4>
+        </div>
+
+        <aside class="profile-panel" aria-label="Profile summary">
+          <img src="./assets/Profile%20pic.png" alt="Illustrated portrait of Vasu Soni" />
+          <div>
+            <strong>Focus</strong>
+            <span>Flutter, Java, Android.</span>
           </div>
-        </a>
-        </form>
+        </aside>
       </section>
-      <section class="section-center">
-        <!-- form -->
-        <form class="grocery-form">
-          <p class="alert"></p>
-         <a href="https://github.com/TreavVasu/COVID19"> <div class="imr">
-            <img src="https://raw.githubusercontent.com/TreavVasu/COVID19/master/app/src/main/ic_launcher-playstore.png" alt="">
-          </div>
-          
-          <br>
-          <h3>COVID19 App</h3>
-          <div class="form-control">
-            <h4>a simple app made for Android with Java and XML having the capability to report the data live.</h4>
-          </div>
-        </a>
-        </form>
+    </header>
+
+    <main>
+      <section class="section" id="profile" aria-labelledby="profile-title">
+        <div class="section-heading">
+          <p class="section-kicker">About</p>
+          <h2 id="profile-title">Profile.</h2>
+        </div>
+
+        <div class="table-wrap">
+          <table class="info-table">
+            <tbody>
+              <tr>
+                <th scope="row">Role</th>
+                <td>Mobile and web developer</td>
+              </tr>
+              <tr>
+                <th scope="row">Stack</th>
+                <td>Android, Flutter, Java, Python, OpenCV</td>
+              </tr>
+              <tr>
+                <th scope="row">Work</th>
+                <td>Apps, websites, computer vision</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
-    
-    
-      <section class="section-center">
-        <!-- form -->
-        <form class="grocery-form">
-          <p class="alert"></p>
-          <a href="https://github.com/TreavVasu/FlutterH20">
-          <h3>FlutterH20 </h3>
-          <div class="form-control">
-            <h4>Flutter app with 152nd position on Hack20 International Hackathon</h4>
-          </div>
-          </a>
-        </form>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="section-kicker">Projects</p>
+          <h2 id="projects-title">Work.</h2>
+        </div>
+
+        <div class="table-wrap">
+          <table class="info-table">
+            <thead>
+              <tr>
+                <th scope="col">Project</th>
+                <th scope="col">Type</th>
+                <th scope="col">Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>FewShorts</td>
+                <td>Android news app</td>
+                <td><a href="https://github.com/TreavVasu/fewshorts">Repository</a></td>
+              </tr>
+              <tr>
+                <td>COVID19 App</td>
+                <td>Live COVID data app</td>
+                <td><a href="https://github.com/TreavVasu/COVID19">Repository</a></td>
+              </tr>
+              <tr>
+                <td>FlutterH20</td>
+                <td>Hack20 Flutter project</td>
+                <td><a href="https://github.com/TreavVasu/FlutterH20">Repository</a></td>
+              </tr>
+              <tr>
+                <td>Hair My Style</td>
+                <td>Hairstyle app</td>
+                <td><a href="./PrivacyPolicy.txt">Privacy Policy</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
-    </div>
-  </div>
-  <!-- Next Tab -->
 
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="section-kicker">Skills</p>
+          <h2 id="skills-title">Tools I use.</h2>
+        </div>
 
+        <div class="table-wrap">
+          <table class="info-table">
+            <tbody>
+              <tr>
+                <th scope="row">Mobile</th>
+                <td>Flutter, Dart, Android</td>
+              </tr>
+              <tr>
+                <th scope="row">Code</th>
+                <td>Java, Python, C++</td>
+              </tr>
+              <tr>
+                <th scope="row">Web</th>
+                <td>HTML, CSS, JavaScript</td>
+              </tr>
+              <tr>
+                <th scope="row">Vision</th>
+                <td>OpenCV</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
 
-  <div class="tab-2">
-    <label for="tab2-2">					
-      <i class="fas fa-tags fa-3x"></i>   
-      <p>Social Handles</p>
-    </label>
-    <input id="tab2-2" name="tabs-two" type="radio">
-    <div>
-    <!-- Second tab contewnts -->
-    
-    
-    <section class="section-center">
-      <!-- form -->
-      <form class="grocery-form">
-        <h3> <a href="https://github.com/TreavVasu">Github</a></h3>
-        <h3> <a href="https://www.linkedin.com/in/iamvasusoni/">Linkedin</a></h3>
-        <h3> <a href="https://www.quora.com/profile/Vasu-Soni-15">Quora</a></h3>
-        <h3> <a href="https://twitter.com/TreavVasu">Twitter</a></h3>
-        <h3> <a href="https://treavvasu.wordpress.com/">Wordpress</a></h3>
-        
-      </form>
-    </section>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </div>
-  </div>
-</div>
-<!-- Tabs def end  -->
-
-<style>
-  button:focus,
-input:focus,
-textarea:focus,
-select:focus {
-  outline: none; }
-
-.tabs {
-  display: block;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: 0;
-  overflow: hidden; }
-  .tabs [class^="tab"] label,
-  .tabs [class*=" tab"] label {
-    color: #efedef;
-    cursor: pointer;
-    display: block;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1em;
-    padding: 2rem 0;
-    text-align: center; }
-  .tabs [class^="tab"] [type="radio"],
-  .tabs [class*=" tab"] [type="radio"] {
-    border-bottom: 1px solid rgba(239, 237, 239, 0.5);
-    cursor: pointer;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    display: block;
-    width: 100%;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; }
-    .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
-    .tabs [class*=" tab"] [type="radio"]:hover,
-    .tabs [class*=" tab"] [type="radio"]:focus {
-      border-bottom: 1px solid #fd264f; }
-    .tabs [class^="tab"] [type="radio"]:checked,
-    .tabs [class*=" tab"] [type="radio"]:checked {
-      border-bottom: 2px solid #fd264f; }
-    .tabs [class^="tab"] [type="radio"]:checked + div,
-    .tabs [class*=" tab"] [type="radio"]:checked + div {
-      opacity: 1; }
-    .tabs [class^="tab"] [type="radio"] + div,
-    .tabs [class*=" tab"] [type="radio"] + div {
-      display: block;
-      opacity: 0;
-      padding: 2rem 0;
-      width: 90%;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out; }
-  .tabs .tab-2 {
-    width: 50%; }
-    .tabs .tab-2 [type="radio"] + div {
-      width: 200%;
-      margin-left: 200%; }
-    .tabs .tab-2 [type="radio"]:checked + div {
-      margin-left: 0; }
-    .tabs .tab-2:last-child [type="radio"] + div {
-      margin-left: 100%; }
-    .tabs .tab-2:last-child [type="radio"]:checked + div {
-      margin-left: -100%; }
-</style>
-
-
-
-
-
-
-
-
-
-
-
-<!-- footer begin -->
-
-<footer class="footer">
-  <p>Collaborate?  <a href="mailto:write2treav@gmail.com"> write2treav@gmail.com </a></p>
-  
-    <p>Privacy Policy  <a href="https://raw.githubusercontent.com/TreavVasu/TreavVasu/master/PrivacyPolicy.txt"> Policy View </a></p>
-  
-    <div class="footer-cols">
-  
-  </div>
-
-</footer> 
-
-
-
-
-</body>
+    <footer class="footer" id="contact">
+      <div>
+        <p class="section-kicker">Contact</p>
+        <h2>Reach me here.</h2>
+      </div>
+      <div class="footer-table-wrap">
+        <table class="footer-table">
+          <tbody>
+            <tr>
+              <th scope="row">GitHub</th>
+              <td><a href="https://github.com/TreavVasu">TreavVasu</a></td>
+            </tr>
+            <tr>
+              <th scope="row">LinkedIn</th>
+              <td><a href="https://www.linkedin.com/in/iamvasusoni/">Vasu Soni</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Twitter/X</th>
+              <td><a href="https://twitter.com/TreavVasu">@TreavVasu</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Email</th>
+              <td><a href="mailto:write2treav@gmail.com">write2treav@gmail.com</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </footer>
+  </body>
 </html>
