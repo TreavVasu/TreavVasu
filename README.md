@@ -4,7 +4,7 @@
 
 # Vasu Soni
 
-Mobile and web developer.
+AI FullStack Web and Android, Making simple poc system complex production units
 
 [Portfolio](https://treavvasu.github.io/TreavVasu/) | [LinkedIn](https://www.linkedin.com/in/iamvasusoni/) | [Twitter/X](https://twitter.com/TreavVasu) | [Email](mailto:write2treav@gmail.com)
 
@@ -12,9 +12,9 @@ Mobile and web developer.
 
 | Field | Details |
 | --- | --- |
-| Role | Mobile and web developer |
-| Stack | Android, Flutter, Java, Python, OpenCV |
-| Work | Apps, websites, computer vision |
+| Role | Sr. Data Engineer |
+| Stack | Data, AI, RAG, Multimodel, model, GCP, Azure |
+| Work | Apps, websites, GenAI, Android, Ollama |
 
 ## Projects
 
