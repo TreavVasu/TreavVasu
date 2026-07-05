@@ -34,6 +34,3 @@ Mobile and web developer.
 | Web | HTML, CSS, JavaScript |
 | Vision | OpenCV |
 
-## GitHub Snapshot
-
-![Vasu's GitHub stats](https://github-readme-stats.vercel.app/api?username=TreavVasu&show_icons=true&hide_border=true&rank_icon=github)
