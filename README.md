@@ -1,5 +1,5 @@
 <p align="right">
-  <img src="./assets/Profile%20pic.png" width="150" alt="Vasu Soni" />
+  <img src="./assets/Profile Banner.png" width="150" alt="Vasu Soni" />
 </p>
 
 # Vasu Soni
